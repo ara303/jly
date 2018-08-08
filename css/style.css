@@ -126,9 +126,8 @@ img {
   color: #f0f0f0;
 }
 
-.section-timetable {
-  background-color: #2c3136;
-  color: #f0f0f0;
+.section-footer {
+  background-color: #e6e9ed;
 }
 
 .section-testimonials {
@@ -150,14 +149,6 @@ img {
   background: #fff;
   margin: 0 25px;
   padding: 25px;
-}
-
-.tstm-inner p {
-  margin-top: 0;
-}
-
-.tstm-inner p:last-of-type {
-  margin-bottom: 0;
 }
 
 .section-contact {
