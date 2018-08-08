@@ -43,7 +43,8 @@ blockquote:last-of-type {
   margin-bottom: 0;
 }
 
-img+h2 {
+img+h2,
+p+img {
   margin-top: 1em;
 }
 
