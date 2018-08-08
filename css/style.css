@@ -1,6 +1,7 @@
 html {
   box-sizing: border-box;
 }
+
 *,*:before,*:after {
   box-sizing: inherit;
 }
@@ -8,7 +9,7 @@ html {
 body {
   font-family: 'Rubik',sans-serif;
   font-size: 20px;
-  line-height: 1.464;
+  line-height: 1.526;
   color: #434343;
   margin: 0;
   padding-top: 107px;
