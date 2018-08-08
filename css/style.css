@@ -29,6 +29,20 @@ h2 {
   font-size: 1.98em;
 }
 
+ul,
+ol,
+p,
+blockquote {
+  margin-top: 0;
+}
+
+ul:last-of-type,
+ol:last-of-type,
+p:last-of-type,
+blockquote:last-of-type {
+  margin-bottom: 0;
+}
+
 img+h2 {
   margin-top: 1em;
 }
