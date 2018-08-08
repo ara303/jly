@@ -24,6 +24,13 @@ a {
 
 h2 {
   margin-top: 0;
+  display: block;
+  text-align: center;
+  font-size: 1.98em;
+}
+
+img {
+  display: block;
 }
 
 .header {
@@ -76,12 +83,6 @@ h2 {
 
 .section.section-unstyled {
   padding: 0;
-}
-
-h2 {
-  display: block;
-  text-align: center;
-  font-size: 1.98em;
 }
 
 .section-inner {
