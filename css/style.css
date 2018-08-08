@@ -29,6 +29,10 @@ h2 {
   font-size: 1.98em;
 }
 
+img+h2 {
+  margin-top: 1em;
+}
+
 img {
   display: block;
 }
@@ -38,12 +42,14 @@ img {
   position: fixed;
   top: 0;
   width: 100%;
+  padding: 20px;
 }
 
 .header-inner {
-  padding: 20px;
   display: flex;
   align-items: center;
+  max-width: 1020px;
+  margin: 0 auto;
 }
 
 .header-logo {
