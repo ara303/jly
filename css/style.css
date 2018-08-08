@@ -22,6 +22,10 @@ a {
   color: inherit;
 }
 
+h2 {
+  margin-top: 0;
+}
+
 .header {
   background: #fff;
   position: fixed;
@@ -70,6 +74,10 @@ a {
   padding: 50px;
 }
 
+.section.section-unstyled {
+  padding: 0;
+}
+
 h2 {
   display: block;
   text-align: center;
@@ -79,6 +87,11 @@ h2 {
 .section-inner {
   max-width: 1020px;
   margin: 0 auto;
+}
+
+.section.section-unstyled .section-inner {
+  max-width: inherit;
+  margin: inherit;
 }
 
 .section-meet {
