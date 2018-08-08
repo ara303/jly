@@ -126,8 +126,9 @@ img {
   color: #f0f0f0;
 }
 
-.section-footer {
+.section-timetable {
   background-color: #e6e9ed;
+  color: #f0f0f0;
 }
 
 .section-testimonials {
@@ -151,12 +152,8 @@ img {
   padding: 25px;
 }
 
-.section-contact {
-  background-color: #967adc;
-  color: #f0f0f0;
-}
-
 .section-footer {
+  background-color: #e6e9ed;
   font-size: 0.75em;
   padding-top: 25px;
   padding-bottom: 25px;
