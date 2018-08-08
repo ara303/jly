@@ -7,7 +7,7 @@ html {
 
 body {
   font-family: carme,sans-serif;
-  font-size: 18px;
+  font-size: 20px;
   line-height: 1.464;
   color: #323232;
   margin: 0;
@@ -35,9 +35,14 @@ a {
   align-items: center;
 }
 
+.header-logo {
+  width: 80px;
+}
+
 .header-title {
-  margin: 0 0 0 20px;
+  margin-left: 25px;
   flex-grow: 1;
+  font-size: 24px;
 }
 
 .header-nav {
@@ -49,12 +54,18 @@ a {
 
 .header-nav li {
   display: inline-block;
+  margin-left: 25px;
 }
 
 .header-nav a {
   text-decoration: none;
+  transition: color 0.1s linear;
 }
 
+.header-nav a:hover {
+  color: #ed5565;
+}
+  
 .section {
   padding: 50px;
 }
