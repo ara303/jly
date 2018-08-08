@@ -4,6 +4,7 @@ html {
 *,*:before,*:after {
   box-sizing: inherit;
 }
+
 body {
   font-family: carme,sans-serif;
   font-size: 18px;
@@ -11,6 +12,10 @@ body {
   color: #323232;
   margin: 0;
   padding-top: 50px;
+}
+
+img {
+  width: 100%;
 }
 
 a {
