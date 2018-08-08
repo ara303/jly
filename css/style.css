@@ -1,0 +1,13 @@
+html {
+  box-sizing: border-box;
+}
+*,*:before,*:after {
+  box-sizing: inherit;
+}
+
+body {
+  font-size: 18px;
+  line-height: 1.463;
+  color: #272727;
+  font-family: quicksand, sans-serif;
+}
