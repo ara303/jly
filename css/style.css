@@ -155,15 +155,15 @@ img {
   margin-top: 50px;
 }
 
-.tstm-item:nth-of-type(0),
-.tstm-item:nth-of-type(1) {
+.tstm-item:nth-of-type(1),
+.tstm-item:nth-of-type(2) {
   margin-top: 0;
 }
 
 .tstm-inner {
   background: #fff;
   margin: 0 25px;
-  padding: 25px;
+  padding: 20px 25px;
   height: 100%;
   display: flex;
   flex-direction: column;
