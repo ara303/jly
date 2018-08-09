@@ -152,7 +152,12 @@ img {
 
 .tstm-item {
   width: 50%;
-  margin-bottom: 50px;
+  margin-top: 50px;
+}
+
+.tstm-inner:nth-of-type(0),
+.tstm-inner:nth-of-type(1) {
+  margin-top: 0;
 }
 
 .tstm-inner {
