@@ -122,6 +122,12 @@ img {
   margin-left: 25px;
 }
 
+@media (max-width: 990px) and (min-width: 769px) {
+  .header-nav li {
+    margin-left: 15px;
+  }
+}
+    
 .header-nav a {
   text-decoration: none;
   transition: color 0.1s linear;
