@@ -31,9 +31,15 @@ a {
 
 h2 {
   margin-top: 0;
+  margin-bottom: 25px;
   display: block;
   text-align: center;
   font-size: 1.98em;
+}
+
+img+h2,
+p+img {
+  margin-top: 25px;
 }
 
 h1,
@@ -58,11 +64,6 @@ blockquote:last-of-type {
   margin-bottom: 0;
 }
 
-img+h2,
-p+img {
-  margin-top: 1em;
-}
-
 img {
   display: block;
 }
@@ -78,6 +79,12 @@ img {
 @media (max-width: 990px) {
   .header {
     position: inherit;
+  }
+}
+
+@media (max-width: 768px) {
+  .header {
+    padding: 15px;
   }
 }
 
@@ -170,6 +177,12 @@ img {
   
 .section {
   padding: 50px;
+}
+
+@media (max-width: 768px) {
+  .section {
+    padding: 15px;
+  }
 }
 
 .section.section-unstyled {
