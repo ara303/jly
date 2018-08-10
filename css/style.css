@@ -15,7 +15,7 @@ body {
   padding-top: 107px;
 }
 
-@media (max-width: 990px) and (min-width: 769px) {
+@media (max-width: 990px) {
   body {
     padding-top: 0;
   }
@@ -75,7 +75,7 @@ img {
   padding: 20px;
 }
 
-@media (max-width: 990px) and (min-width: 769px) {
+@media (max-width: 990px) {
   .header {
     position: inherit;
   }
@@ -92,6 +92,12 @@ img {
   width: 80px;
 }
 
+@media (max-width: 768px) {
+  .header-logo {
+    margin: 0 auto;
+  }
+}
+
 .header-title {
   margin: 0 0 0 25px;
   flex-grow: 1;
@@ -101,6 +107,14 @@ img {
 @media (max-width: 990px) and (min-width: 769px) {
   .header-title {
     font-size: 18px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+  }
+}
+
+@media (max-width: 768px) {
+  .header-title {
+    text-align: center;
   }
 }
 
@@ -117,9 +131,19 @@ img {
   }
 }
 
+@media (max-width: 768px) {
+  .header-nav {
+    text-align: center;
+  }
+}
+
 .header-nav li {
   display: inline-block;
   margin-left: 25px;
+}
+
+.header-nav li:first-child {
+  margin-left: 0;
 }
 
 @media (max-width: 990px) and (min-width: 769px) {
