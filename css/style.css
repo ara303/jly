@@ -233,7 +233,7 @@ img {
 }
 
 @media (max-width: 768px) {
-  .tstm-inner {
+  .tstm-item {
     margin-top: 15px;
   }
 }
