@@ -285,3 +285,30 @@ img {
   padding-top: 25px;
   padding-bottom: 25px;
 }
+
+@media (min-width: 769px) {
+  .section-footer .section-inner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .section-footer .footer-main {
+    flex-grow: 1;
+  }
+
+  .section-footer .footer-secondary {
+    font-size: 0.75em;
+    opacity: 0.75;
+    text-align: right;
+  }
+}
+
+@media (max-width: 768px) {
+  .section-footer .footer-secondary {
+    margin-top: 1em;
+    font-size: 0.75em;
+    opacity: 0.75;
+  }
+}
+
