@@ -207,8 +207,8 @@ img {
 }
 
 .section-meet {
-  background-color: rgb(216,17,27);
-  color: #f0f0f0;
+  background-color: #434a54;
+  color: #dadada;
 }
 
 .section-about {
@@ -222,9 +222,8 @@ img {
 }
 
 .section-testimonials {
-  background-color: rgb(216,17,27);
+  background-color: #434a54;
 }
-
 
 @media (min-width: 769px) {
   .tstm-wrapper {
