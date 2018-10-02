@@ -83,6 +83,10 @@ img {
   padding: 20px;
 }
 
+.header a {
+  text-decoration: none;
+}
+
 @media (max-width: 990px) {
   .header {
     position: inherit;
@@ -115,6 +119,7 @@ img {
 @media (min-width: 769px) {
   .header-logo {
     float: left;
+    margin-right: 25px;
   }
   
   .header-logo-section {
@@ -122,7 +127,7 @@ img {
   }
   
   .header-title {
-    line-height: 80px;
+    line-height: 67px;
   }
 }
 
@@ -133,7 +138,6 @@ img {
 }
 
 .header-title {
-  margin: 0 0 0 25px;
   flex-grow: 1;
   font-size: 24px;
 }
