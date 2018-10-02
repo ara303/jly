@@ -106,14 +106,6 @@ img {
   .header-inner {
     display: block;
   }
-  
-  .header-logo-section {
-    flex-grow: 1;
-  }
-  
-  .header-title {
-    line-height: 80px;
-  }
 }
 
 .header-logo {
@@ -123,6 +115,14 @@ img {
 @media (min-width: 769px) {
   .header-logo {
     float: left;
+  }
+  
+  .header-logo-section {
+    flex-grow: 1;
+  }
+  
+  .header-title {
+    line-height: 80px;
   }
 }
 
