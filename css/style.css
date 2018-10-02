@@ -112,6 +112,12 @@ img {
   width: 80px;
 }
 
+@media (min-width: 769px) {
+  .header-logo {
+    float: left;
+  }
+}
+
 @media (max-width: 768px) {
   .header-logo {
     margin: 0 auto;
