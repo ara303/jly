@@ -230,6 +230,13 @@
     </div>
     <script>
       let scrollTopButton = document.querySelector('.scroll-top-button');
+      window.addEventListener('scroll', e => {
+        if (window.scrollY >= 2000) {
+          scrollTopButton.classList.add('is-visible');
+        } else {
+          scrollTopButton.classList.remove('is-visible');
+        }
+      });
       scrollTopButton.addEventListener('click', e => {
         var cosParameter = window.scrollY / 2,
           scrollCount = 0,
