@@ -233,7 +233,8 @@
       scrollTopButton.addEventListener('click', e => {
         var cosParameter = window.scrollY / 2,
           scrollCount = 0,
-          oldTimestamp = performance.now();
+          oldTimestamp = performance.now(),
+          scrollDuration = 400;
         function step (newTimestamp) {
           scrollCount += Math.PI / (scrollDuration / (newTimestamp - oldTimestamp));
           if (scrollCount >= Math.PI) window.scrollTo(0, 0);
