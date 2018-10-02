@@ -140,6 +140,7 @@ img {
 .header-title {
   flex-grow: 1;
   font-size: 24px;
+  margin: 0;
 }
 
 @media (max-width: 990px) and (min-width: 769px) {
