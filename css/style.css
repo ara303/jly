@@ -229,7 +229,7 @@ img {
 }
   
 .section {
-  padding: 50px;
+  padding: 60px 0 40px;
 }
 
 @media (max-width: 768px) {
