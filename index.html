@@ -228,38 +228,6 @@
     <div class="scroll-top-button">
       <svg class="icon-up-svg" viewBox="0 0 20 20"><path fill="#434343" d="M10.359 7.785c-0.199-0.196-0.52-0.196-0.717 0l-2.864 2.807c-0.199 0.195-0.198 0.514 0 0.71 0.197 0.196 0.518 0.196 0.717 0l2.505-2.302 2.506 2.302c0.198 0.196 0.518 0.196 0.718 0 0.197-0.196 0.197-0.515 0-0.71l-2.865-2.807zM10 0.4c-5.302 0-9.6 4.298-9.6 9.6 0 5.303 4.298 9.6 9.6 9.6s9.6-4.297 9.6-9.6c0-5.302-4.298-9.6-9.6-9.6zM10 18.354c-4.615 0-8.354-3.74-8.354-8.354s3.739-8.354 8.354-8.354c4.613 0 8.354 3.74 8.354 8.354s-3.741 8.354-8.354 8.354z"></path></svg>
     </div>
-    <script>
-      let pageHeader = document.querySelector('.header');
-      window.addEventListener('scroll', e => {
-        if (window.scroll >= 50) {
-          pageHeader.classList.add('compact-mode');
-        } else {
-          pageHeader.classList.remove('compact-mode');
-        }
-      });
-      let scrollTopButton = document.querySelector('.scroll-top-button');
-      window.addEventListener('scroll', e => {
-        if (window.scrollY >= 2000) {
-          scrollTopButton.classList.add('is-visible');
-        } else {
-          scrollTopButton.classList.remove('is-visible');
-        }
-      });
-      scrollTopButton.addEventListener('click', e => {
-        var cosParameter = window.scrollY / 2,
-          scrollCount = 0,
-          oldTimestamp = performance.now(),
-          scrollDuration = 400;
-        function step (newTimestamp) {
-          scrollCount += Math.PI / (scrollDuration / (newTimestamp - oldTimestamp));
-          if (scrollCount >= Math.PI) window.scrollTo(0, 0);
-          if (window.scrollY === 0) return;
-          window.scrollTo(0, Math.round(cosParameter + cosParameter * Math.cos(scrollCount)));
-          oldTimestamp = newTimestamp;
-          window.requestAnimationFrame(step);
-        }
-        window.requestAnimationFrame(step);
-      });
-    </script>
+    <script src="js/application.js"></script>
   </body>
 </html>
