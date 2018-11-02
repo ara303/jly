@@ -201,6 +201,32 @@ img {
 .header-nav a:hover {
   color: #ed5565;
 }
+
+/* Header animation */
+
+.header {
+    transition: padding 200ms ease-in-out;
+}
+
+.header-logo {
+    transition: width 200ms ease-in-out;
+}
+
+.header-title {
+    transition: line-height 200ms ease-in-out;
+}
+
+.header.compact-mode {
+    padding: 10px;
+}
+
+.header.compact-mode .header-logo {
+    width: 59px;
+}
+
+.header.compact-mode .header-title {
+    line-height: 48px;
+}
   
 .section {
   padding: 50px;
