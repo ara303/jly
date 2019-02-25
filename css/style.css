@@ -384,7 +384,12 @@ img {
     text-align: center;
 }
 
-.section-flash .section-inner>* {
+.section-flash p,
+.section-flash h2 {
     margin-bottom: 20px;
     line-height: 1;
+}
+
+.section-flash:last-of-type {
+  margin-bottom: 0;
 }
