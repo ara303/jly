@@ -390,6 +390,6 @@ img {
     line-height: 1;
 }
 
-.section-flash:last-of-type {
+.section-flash p:last-of-type {
   margin-bottom: 0;
 }
