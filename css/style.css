@@ -393,3 +393,32 @@ img {
 .section-flash p:last-of-type {
   margin-bottom: 0;
 }
+
+/**
+ * New section: book button
+ */
+.section-book {
+    color: #fff;
+    background: #5AB1BB;
+}
+
+.section-book a {
+    padding: 1em 2.5em;
+    background: #fff;
+    color: #5ab1bb;
+    margin: 0 auto;
+    font-weight: 500;
+    text-decoration: none;
+    border-radius: 1000px;
+    margin-bottom: 20px;
+    transition: all 125ms ease-in-out;
+}
+
+.section-book .section-inner {
+    display: flex;
+}
+
+.section-book a:hover {
+    background: #295f65;
+    color: #fff;
+}
